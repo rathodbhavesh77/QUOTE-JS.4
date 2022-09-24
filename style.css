@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient( to left, rgba(255, 0, 0, 0), rgb(243, 30, 158));
+}
+
+.quote {
+    font-size: 40px;
+    padding: 210px 150px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: rgba(237, 250, 250, 0.2);
+    border: white solid 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 40rem;
+}
+
+button:hover {
+    color: red;
+}
+
+p {
+    font-size: 25px;
+    padding-left: 935px;
+    margin-top: -75px;
+    color: white;
+}

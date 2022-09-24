@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote-js2</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="btn">
+    <div class="container">
+        <div class="quote">
+            "DO NOT GO WHERE THE PATH MAY LEAD, GO INSTEAD WHERE THERE IS NO PATH AND LEAVE A TRAIL.,,
+        </div>
+
+        <button>SHOW ANOTHER QUOTE</button>
+        <p>-RALPH WALDO EMERSON</p>
+    </div>
+    <script>
+        let color = ["red", "orange", "blue", "green"];
+        let btn = document.getElementById("btn");
+        btn.addEventListener("click", function change() {
+            let randomColor = color[Math.floor(Math.random() * color.length)];
+            document.body.style.background = randomColor;
+        });
+    </script>
+</body>
+
+</html>
